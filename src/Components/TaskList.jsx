@@ -23,7 +23,7 @@ const TaskList = () => {
   return (
     <>
       <Swiper
-        slidesPerView={2}
+        slidesPerView={5}
         scrollbar={{ hide: true }}
         modules={[Scrollbar]}
         className="mySwiper"

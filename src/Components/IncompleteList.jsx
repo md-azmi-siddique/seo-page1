@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const IncompleteList = () => {
   return (
@@ -6,6 +6,13 @@ const IncompleteList = () => {
       <div className="flex">
         <div className="w-5 h-5 rounded-l-lg mr-2 bg-red-600"></div>
         Incomplete
+      </div>
+      <div>
+      <div class="grid grid-cols-2 gap-4">
+  <div>01</div>
+  
+  <div>09</div>
+</div>
       </div>
       <div>01</div>
       <div>01</div>
@@ -27,6 +34,7 @@ const IncompleteList = () => {
       <div>09</div>
       <div>09</div>
     </div>
+
   );
 };
 
