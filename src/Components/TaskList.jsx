@@ -18,21 +18,20 @@ import UnderReview from "./UnderReview";
 import Compleated from "./Compleated";
 import Over from "./Over";
 
-
 const TaskList = () => {
   return (
-    <>
+
+    <div className="bg-slate-300">
+      <div className="container mx-auto">
       <Swiper
-        slidesPerView={5}
+        slidesPerView={4}
         scrollbar={{ hide: true }}
         modules={[Scrollbar]}
         className="mySwiper"
       >
         <SwiperSlide>
           <div className="incomplete bg-slate-300 p-2">
-            <div className="topNav flex justify-between">
-              
-            </div>
+            <div className="topNav flex justify-between"></div>
             <div className="list Section">
               <Swiper
                 direction={"vertical"}
@@ -53,9 +52,7 @@ const TaskList = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="incomplete bg-slate-300 p-2">
-            <div className="topNav flex justify-between">
-              
-            </div>
+            <div className="topNav flex justify-between"></div>
             <div className="list Section">
               <Swiper
                 direction={"vertical"}
@@ -69,7 +66,6 @@ const TaskList = () => {
                 <SwiperSlide>
                   {/* Todo List */}
                   <TodoList></TodoList>
-    
                 </SwiperSlide>
               </Swiper>
             </div>
@@ -109,9 +105,7 @@ const TaskList = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="incomplete bg-slate-300 p-2">
-            <div className="topNav flex justify-between">
-             
-            </div>
+            <div className="topNav flex justify-between"></div>
             <div className="list Section">
               <Swiper
                 direction={"vertical"}
@@ -145,9 +139,7 @@ const TaskList = () => {
         {/* compleated */}
         <SwiperSlide>
           <div className="incomplete bg-slate-300 p-2">
-            <div className="topNav flex justify-between">
-             
-            </div>
+            <div className="topNav flex justify-between"></div>
             <div className="list Section">
               <Swiper
                 direction={"vertical"}
@@ -180,9 +172,7 @@ const TaskList = () => {
         {/* Over */}
         <SwiperSlide>
           <div className="incomplete bg-slate-300 p-2">
-            <div className="topNav flex justify-between">
-             
-            </div>
+            <div className="topNav flex justify-between"></div>
             <div className="list Section">
               <Swiper
                 direction={"vertical"}
@@ -213,7 +203,8 @@ const TaskList = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
+    </div>
   );
 };
 

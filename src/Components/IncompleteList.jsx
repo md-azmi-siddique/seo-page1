@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import ListItem from "./ListItem";
+import MyComponent from './MyComponent';
 
 const IncompleteList = () => {
   return (
@@ -8,33 +10,10 @@ const IncompleteList = () => {
         Incomplete
       </div>
       <div>
-      <div class="grid grid-cols-2 gap-4">
-  <div>01</div>
-  
-  <div>09</div>
-</div>
+        <MyComponent></MyComponent>
       </div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
+     
     </div>
-
   );
 };
 
