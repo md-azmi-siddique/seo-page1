@@ -1,5 +1,6 @@
 import React from "react";
 import MyComponent from './MyComponent';
+import './CustomScroll.css';
 
 const Compleated = () => {
   return (
@@ -8,8 +9,8 @@ const Compleated = () => {
         <div className="w-5 h-5 rounded-l-lg mr-2"></div>
         Compleated
       </div>
-      <div>
-        <MyComponent></MyComponent>
+      <div className="custom-scrollbar">
+        <MyComponent />
       </div>
     </div>
   );
