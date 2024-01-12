@@ -1,4 +1,5 @@
 import React from "react";
+import MyComponent from './MyComponent';
 
 const UnderReview = () => {
   return (
@@ -7,25 +8,9 @@ const UnderReview = () => {
         <div className="w-5 h-5 rounded-l-lg mr-2"></div>
         Under Review
       </div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>01</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
-      <div>09</div>
+      <div>
+        <MyComponent></MyComponent>
+      </div>
     </div>
   );
 };
