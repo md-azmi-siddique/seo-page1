@@ -22,7 +22,7 @@ const TaskList = () => {
     <div className="bg-slate-300">
       <div className="container mx-auto">
       <Swiper
-        slidesPerView={4}
+        slidesPerView={3}
         scrollbar={{ hide: true }}
         modules={[Scrollbar]}
         className="mySwiper"
