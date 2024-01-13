@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,9 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
 
-// import './styles.css';
-
-// import required modules
 import { Scrollbar } from "swiper/modules";
 import { FreeMode, Mousewheel } from "swiper/modules";
 import IncompleteList from "./IncompleteList";
@@ -17,6 +14,7 @@ import Doing from "./Doing";
 import UnderReview from "./UnderReview";
 import Compleated from "./Compleated";
 import Over from "./Over";
+
 
 const TaskList = () => {
   return (
