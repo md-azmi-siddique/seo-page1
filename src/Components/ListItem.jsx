@@ -16,9 +16,9 @@ const ListItem = () => {
       <div class="grid grid-cols-7 gap-0">
         <div class="...">01</div>
         <div class="...">02</div>
-        <div class="...">03</div>
-        <div class="...">04</div>
-        <div class="...">04</div>
+        <div class="...">12+</div>
+        <div class="...">15</div>
+        <div class="...">25</div>
         <div class="col-span-2 ...">{currentDate}</div>
       </div>
     </div>
