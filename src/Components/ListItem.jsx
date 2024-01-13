@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from 'react';
 
 const ListItem = () => {
+  const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+  const [currentDate, setCurrentDate] = useState(new Date().toLocaleDateString(undefined, options));
   return (
     <div>
       <div class="grid grid-cols-2">
@@ -17,8 +19,7 @@ const ListItem = () => {
         <div class="...">03</div>
         <div class="...">04</div>
         <div class="...">04</div>
-        
-        <div class="col-span-2 ...">07</div>
+        <div class="col-span-2 ...">{currentDate}</div>
       </div>
     </div>
   );
